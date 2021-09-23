@@ -1,2 +1,1 @@
-# SunilQaAutomation
-# RestAssuredFrameWork
+# RestAssuredPractise
