@@ -5,6 +5,8 @@ public class TestConfig{
 	
 	public static String server="smtp.gmail.com";
 	public static String from = "qapractise@gmail.com";
+								// avax.mail.MessagingException: Could not connect to SMTP host: smtp.gmail.com, port: 465;
+						
 	public static String password = "Automation123$";
 	public static String[] to ={"qa.sunil.automation@gmail.com","sunil.kumar.battula@gmail.com"};
 	public static String subject = "Extent Project Report";
