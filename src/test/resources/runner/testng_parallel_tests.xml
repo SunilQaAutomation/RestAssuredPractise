@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API TESTING" parallel="tests" thread-count="2">
+	<listeners>
+		<listener
+			class-name="com.accenture.APITestingFrameWork.listeners.ExtentListeners" />
+	</listeners>
+
+	<test name="Regressioin1">
+		<classes>
+			<class
+				name="com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTable" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Regressioin2">
+		<classes>
+			<class
+				name="com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

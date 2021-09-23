@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-API_TESTING">
+              <span class="suite-name border-failed">API TESTING</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-API_TESTING">
+                    <span>C:\Selenium_WorkSpace\RestAssuredFrameWork\src\test\resources\runner\testng_parallel_methods.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-API_TESTING">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-API_TESTING">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-API_TESTING">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-API_TESTING">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-API_TESTING">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-API_TESTING">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 7 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-API_TESTING" class="hide-methods failed suite-API_TESTING"> (hide)</a> <!-- hide-methods failed suite-API_TESTING -->
+                      <a href="#" panel-name="suite-API_TESTING" class="show-methods failed suite-API_TESTING"> (show)</a> <!-- show-methods failed suite-API_TESTING -->
+                    </span>
+                    <div class="method-list-content failed suite-API_TESTING">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_KGj3HRyHuuBwG3})">deleteCustomer({id=cus_KGj3HRyHuuBwG3})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_KGjBNg4DytwUUn})">deleteCustomer({id=cus_KGjBNg4DytwUUn})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_KGixr3bEjuu2JZ})">deleteCustomer({id=cus_KGixr3bEjuu2JZ})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_KGj3INOx03VAkY})">deleteCustomer({id=cus_KGj3INOx03VAkY})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest" hash-for-method="deleteCustomer({id=cus_KGj3PrO5PpRTia})">deleteCustomer({id=cus_KGj3PrO5PpRTia})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest" hash-for-method="inValidingCustomerWithValidSecrectkey({state=MA, name=Lia, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Ol...)">inValidingCustomerWithValidSecrectkey({state=MA, name=Lia, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Ol...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest" hash-for-method="inValidingCustomerWithValidSecrectkey({state=UP, name=sachin, preferred_locales2=Hindi, preferred_locales1=France, phone=567890, email=Tob...)">inValidingCustomerWithValidSecrectkey({state=UP, name=sachin, preferred_locales2=Hindi, preferred_locales1=France, phone=567890, email=Tob...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-API_TESTING -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-API_TESTING" class="hide-methods passed suite-API_TESTING"> (hide)</a> <!-- hide-methods passed suite-API_TESTING -->
+                      <a href="#" panel-name="suite-API_TESTING" class="show-methods passed suite-API_TESTING"> (show)</a> <!-- show-methods passed suite-API_TESTING -->
+                    </span>
+                    <div class="method-list-content passed suite-API_TESTING">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest" hash-for-method="ValidingCustomerWithValidSecrectkey({state=MA, name=Lia, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Li...)">ValidingCustomerWithValidSecrectkey({state=MA, name=Lia, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Li...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest" hash-for-method="ValidingCustomerWithValidSecrectkey({state=KA, name=german, preferred_locales2=Brazil, preferred_locales1=Germany, phone=654321, email=g...)">ValidingCustomerWithValidSecrectkey({state=KA, name=german, preferred_locales2=Brazil, preferred_locales1=Germany, phone=654321, email=g...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest" hash-for-method="ValidingCustomerWithValidSecrectkey({state=UP, name=sachin, preferred_locales2=Hindi, preferred_locales1=France, phone=567890, email=sac...)">ValidingCustomerWithValidSecrectkey({state=UP, name=sachin, preferred_locales2=Hindi, preferred_locales1=France, phone=567890, email=sac...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.GetCustomersTest" hash-for-method="listAllCustomers">listAllCustomers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.GetCustomersTest" hash-for-method="listSingleCustomer({id=cus_KGj3PrO5PpRTia})">listSingleCustomer({id=cus_KGj3PrO5PpRTia})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.GetCustomersTest" hash-for-method="listSingleCustomer({id=cus_KGj3INOx03VAkY})">listSingleCustomer({id=cus_KGj3INOx03VAkY})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.GetCustomersTest" hash-for-method="listSingleCustomer({id=cus_KGj3HRyHuuBwG3})">listSingleCustomer({id=cus_KGj3HRyHuuBwG3})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.GetCustomersTest" hash-for-method="listSingleCustomer({id=cus_KGjBNg4DytwUUn})">listSingleCustomer({id=cus_KGjBNg4DytwUUn})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.UpdateCustomerTest" hash-for-method="updateSingleCustomer({state=MA, name=Lia, id=cus_KGEhFx4p2H6FlP, preferred_locales2=Spanish, preferred_locales1=Englisth,...)">updateSingleCustomer({state=MA, name=Lia, id=cus_KGEhFx4p2H6FlP, preferred_locales2=Spanish, preferred_locales1=Englisth,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.UpdateCustomerTest" hash-for-method="updateSingleCustomer({state=MA, name=Lia, id=cus_KGEhqju6ro8Uwb, preferred_locales2=Spanish, preferred_locales1=Englisth,...)">updateSingleCustomer({state=MA, name=Lia, id=cus_KGEhqju6ro8Uwb, preferred_locales2=Spanish, preferred_locales1=Englisth,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_TESTING" title="com.accenture.APITestingFrameWork.testCases.UpdateCustomerTest" hash-for-method="updateSingleCustomer({state=MA, name=Lia, id=cus_KGEhqcFhMCzca7, preferred_locales2=Spanish, preferred_locales1=Englisth,...)">updateSingleCustomer({state=MA, name=Lia, id=cus_KGEhqcFhMCzca7, preferred_locales2=Spanish, preferred_locales1=Englisth,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-API_TESTING -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-API_TESTING" class="panel API_TESTING">
+          <div class="suite-API_TESTING-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="inValidingCustomerWithValidSecrectkey({state=MA, name=Lia, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Ol...)">
+                  </a> <!-- inValidingCustomerWithValidSecrectkey({state=MA, name=Lia, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Ol...) -->
+                  <span class="method-name">inValidingCustomerWithValidSecrectkey</span>
+                  <span class="parameters">({state=MA, name=Lia, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Oli.Volg@gmail.com, line2=Street1, description=This is thru dp1, line1=5-4-60/1})</span>
+                  <div class="stack-trace">java.lang.AssertionError: id key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest.inValidingCustomerWithValidSecrectkey(CreateCustomerWithAllInOneSheetHashTableTest.java:73)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inValidingCustomerWithValidSecrectkey({state=UP, name=sachin, preferred_locales2=Hindi, preferred_locales1=France, phone=567890, email=Tob...)">
+                  </a> <!-- inValidingCustomerWithValidSecrectkey({state=UP, name=sachin, preferred_locales2=Hindi, preferred_locales1=France, phone=567890, email=Tob...) -->
+                  <span class="method-name">inValidingCustomerWithValidSecrectkey</span>
+                  <span class="parameters">({state=UP, name=sachin, preferred_locales2=Hindi, preferred_locales1=France, phone=567890, email=Tobias.wall@hotmail.com, line2=Street3, description=This is thru dp3, line1=5-4-60/3})</span>
+                  <div class="stack-trace">java.lang.AssertionError: id key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest.inValidingCustomerWithValidSecrectkey(CreateCustomerWithAllInOneSheetHashTableTest.java:73)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_TESTING-class-failed -->
+          <div class="suite-API_TESTING-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_KGj3HRyHuuBwG3})">
+                  </a> <!-- deleteCustomer({id=cus_KGj3HRyHuuBwG3}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_KGj3HRyHuuBwG3})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:41)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_KGjBNg4DytwUUn})">
+                  </a> <!-- deleteCustomer({id=cus_KGjBNg4DytwUUn}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_KGjBNg4DytwUUn})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:41)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_KGixr3bEjuu2JZ})">
+                  </a> <!-- deleteCustomer({id=cus_KGixr3bEjuu2JZ}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_KGixr3bEjuu2JZ})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:41)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_KGj3INOx03VAkY})">
+                  </a> <!-- deleteCustomer({id=cus_KGj3INOx03VAkY}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_KGj3INOx03VAkY})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:41)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomer({id=cus_KGj3PrO5PpRTia})">
+                  </a> <!-- deleteCustomer({id=cus_KGj3PrO5PpRTia}) -->
+                  <span class="method-name">deleteCustomer</span>
+                  <span class="parameters">({id=cus_KGj3PrO5PpRTia})</span>
+                  <div class="stack-trace">java.lang.AssertionError: ID key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:41)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_TESTING-class-failed -->
+          <div class="suite-API_TESTING-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.accenture.APITestingFrameWork.testCases.GetCustomersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="listAllCustomers">
+                  </a> <!-- listAllCustomers -->
+                  <span class="method-name">listAllCustomers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listSingleCustomer({id=cus_KGj3PrO5PpRTia})">
+                  </a> <!-- listSingleCustomer({id=cus_KGj3PrO5PpRTia}) -->
+                  <span class="method-name">listSingleCustomer</span>
+                  <span class="parameters">({id=cus_KGj3PrO5PpRTia})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listSingleCustomer({id=cus_KGj3INOx03VAkY})">
+                  </a> <!-- listSingleCustomer({id=cus_KGj3INOx03VAkY}) -->
+                  <span class="method-name">listSingleCustomer</span>
+                  <span class="parameters">({id=cus_KGj3INOx03VAkY})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listSingleCustomer({id=cus_KGj3HRyHuuBwG3})">
+                  </a> <!-- listSingleCustomer({id=cus_KGj3HRyHuuBwG3}) -->
+                  <span class="method-name">listSingleCustomer</span>
+                  <span class="parameters">({id=cus_KGj3HRyHuuBwG3})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listSingleCustomer({id=cus_KGjBNg4DytwUUn})">
+                  </a> <!-- listSingleCustomer({id=cus_KGjBNg4DytwUUn}) -->
+                  <span class="method-name">listSingleCustomer</span>
+                  <span class="parameters">({id=cus_KGjBNg4DytwUUn})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_TESTING-class-passed -->
+          <div class="suite-API_TESTING-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidingCustomerWithValidSecrectkey({state=MA, name=Lia, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Li...)">
+                  </a> <!-- ValidingCustomerWithValidSecrectkey({state=MA, name=Lia, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Li...) -->
+                  <span class="method-name">ValidingCustomerWithValidSecrectkey</span>
+                  <span class="parameters">({state=MA, name=Lia, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Lia.german@gmail.com, line2=Street1, description=This is thru dp1, line1=5-4-60/1})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidingCustomerWithValidSecrectkey({state=KA, name=german, preferred_locales2=Brazil, preferred_locales1=Germany, phone=654321, email=g...)">
+                  </a> <!-- ValidingCustomerWithValidSecrectkey({state=KA, name=german, preferred_locales2=Brazil, preferred_locales1=Germany, phone=654321, email=g...) -->
+                  <span class="method-name">ValidingCustomerWithValidSecrectkey</span>
+                  <span class="parameters">({state=KA, name=german, preferred_locales2=Brazil, preferred_locales1=Germany, phone=654321, email=german.Lia@gmail.com, line2=Street2, description=This is thru dp2, line1=5-4-60/2})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidingCustomerWithValidSecrectkey({state=UP, name=sachin, preferred_locales2=Hindi, preferred_locales1=France, phone=567890, email=sac...)">
+                  </a> <!-- ValidingCustomerWithValidSecrectkey({state=UP, name=sachin, preferred_locales2=Hindi, preferred_locales1=France, phone=567890, email=sac...) -->
+                  <span class="method-name">ValidingCustomerWithValidSecrectkey</span>
+                  <span class="parameters">({state=UP, name=sachin, preferred_locales2=Hindi, preferred_locales1=France, phone=567890, email=sachin.suresh@hotmail.com, line2=Street3, description=This is thru dp3, line1=5-4-60/3})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_TESTING-class-passed -->
+          <div class="suite-API_TESTING-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.accenture.APITestingFrameWork.testCases.UpdateCustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateSingleCustomer({state=MA, name=Lia, id=cus_KGEhFx4p2H6FlP, preferred_locales2=Spanish, preferred_locales1=Englisth,...)">
+                  </a> <!-- updateSingleCustomer({state=MA, name=Lia, id=cus_KGEhFx4p2H6FlP, preferred_locales2=Spanish, preferred_locales1=Englisth,...) -->
+                  <span class="method-name">updateSingleCustomer</span>
+                  <span class="parameters">({state=MA, name=Lia, id=cus_KGEhFx4p2H6FlP, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Lia.german@gmail.com, line2=Street1, description=This is thru dp1, line1=5-4-60/1})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateSingleCustomer({state=MA, name=Lia, id=cus_KGEhqju6ro8Uwb, preferred_locales2=Spanish, preferred_locales1=Englisth,...)">
+                  </a> <!-- updateSingleCustomer({state=MA, name=Lia, id=cus_KGEhqju6ro8Uwb, preferred_locales2=Spanish, preferred_locales1=Englisth,...) -->
+                  <span class="method-name">updateSingleCustomer</span>
+                  <span class="parameters">({state=MA, name=Lia, id=cus_KGEhqju6ro8Uwb, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Lia.german@gmail.com, line2=Street1, description=This is thru dp1, line1=5-4-60/1})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateSingleCustomer({state=MA, name=Lia, id=cus_KGEhqcFhMCzca7, preferred_locales2=Spanish, preferred_locales1=Englisth,...)">
+                  </a> <!-- updateSingleCustomer({state=MA, name=Lia, id=cus_KGEhqcFhMCzca7, preferred_locales2=Spanish, preferred_locales1=Englisth,...) -->
+                  <span class="method-name">updateSingleCustomer</span>
+                  <span class="parameters">({state=MA, name=Lia, id=cus_KGEhqcFhMCzca7, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Lia.german@gmail.com, line2=Street1, description=This is thru dp1, line1=5-4-60/1})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_TESTING-class-passed -->
+        </div> <!-- panel API_TESTING -->
+        <div panel-name="test-xml-API_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Selenium_WorkSpace\RestAssuredFrameWork\src\test\resources\runner\testng_parallel_methods.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;API TESTING&quot; parallel=&quot;methods&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.accenture.APITestingFrameWork.listeners.ExtentListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Regressioin&quot; parallel=&quot;methods&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest&quot;/&gt;
+      &lt;class name=&quot;com.accenture.APITestingFrameWork.testCases.UpdateCustomerTest&quot;/&gt;
+      &lt;class name=&quot;com.accenture.APITestingFrameWork.testCases.GetCustomersTest&quot;/&gt;
+      &lt;class name=&quot;com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regressioin --&gt;
+&lt;/suite&gt; &lt;!-- API TESTING --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-API_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for API TESTING</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regressioin (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-API_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for API TESTING</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-API_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for API TESTING</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_API_TESTING');
+function tableData_API_TESTING() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'deleteCustomer')
+data.setCell(0, 2, 'com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest')
+data.setCell(0, 3, 2284);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'deleteCustomer')
+data.setCell(1, 2, 'com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest')
+data.setCell(1, 3, 2284);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'deleteCustomer')
+data.setCell(2, 2, 'com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest')
+data.setCell(2, 3, 2279);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'deleteCustomer')
+data.setCell(3, 2, 'com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest')
+data.setCell(3, 3, 2226);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'deleteCustomer')
+data.setCell(4, 2, 'com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest')
+data.setCell(4, 3, 2224);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'inValidingCustomerWithValidSecrectkey')
+data.setCell(5, 2, 'com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest')
+data.setCell(5, 3, 2089);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'inValidingCustomerWithValidSecrectkey')
+data.setCell(6, 2, 'com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest')
+data.setCell(6, 3, 2089);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ValidingCustomerWithValidSecrectkey')
+data.setCell(7, 2, 'com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest')
+data.setCell(7, 3, 1361);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'listAllCustomers')
+data.setCell(8, 2, 'com.accenture.APITestingFrameWork.testCases.GetCustomersTest')
+data.setCell(8, 3, 1304);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ValidingCustomerWithValidSecrectkey')
+data.setCell(9, 2, 'com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest')
+data.setCell(9, 3, 1304);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ValidingCustomerWithValidSecrectkey')
+data.setCell(10, 2, 'com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest')
+data.setCell(10, 3, 1275);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'updateSingleCustomer')
+data.setCell(11, 2, 'com.accenture.APITestingFrameWork.testCases.UpdateCustomerTest')
+data.setCell(11, 3, 681);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'updateSingleCustomer')
+data.setCell(12, 2, 'com.accenture.APITestingFrameWork.testCases.UpdateCustomerTest')
+data.setCell(12, 3, 650);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'updateSingleCustomer')
+data.setCell(13, 2, 'com.accenture.APITestingFrameWork.testCases.UpdateCustomerTest')
+data.setCell(13, 3, 638);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'listSingleCustomer')
+data.setCell(14, 2, 'com.accenture.APITestingFrameWork.testCases.GetCustomersTest')
+data.setCell(14, 3, 529);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'listSingleCustomer')
+data.setCell(15, 2, 'com.accenture.APITestingFrameWork.testCases.GetCustomersTest')
+data.setCell(15, 3, 517);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'listSingleCustomer')
+data.setCell(16, 2, 'com.accenture.APITestingFrameWork.testCases.GetCustomersTest')
+data.setCell(16, 3, 514);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'listSingleCustomer')
+data.setCell(17, 2, 'com.accenture.APITestingFrameWork.testCases.GetCustomersTest')
+data.setCell(17, 3, 512);
+window.suiteTableData['API_TESTING']= { tableData: data, tableDiv: 'times-div-API_TESTING'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <div id="times-div-API_TESTING">
+              </div> <!-- times-div-API_TESTING -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-API_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for API TESTING</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-API_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.accenture.APITestingFrameWork.testCases.GetCustomersTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.accenture.APITestingFrameWork.testCases.UpdateCustomerTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-API_TESTING" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">inValidingCustomerWithValidSecrectkey({state=UP, name=sachin, preferred_locales2=Hindi, preferred_locales1=France, phone=567890, email=Tob...)</span>
+                <span class="method-start">465 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_KGj3PrO5PpRTia})</span>
+                <span class="method-start">465 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">inValidingCustomerWithValidSecrectkey({state=MA, name=Lia, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Ol...)</span>
+                <span class="method-start">465 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_KGj3HRyHuuBwG3})</span>
+                <span class="method-start">465 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_KGjBNg4DytwUUn})</span>
+                <span class="method-start">465 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_KGixr3bEjuu2JZ})</span>
+                <span class="method-start">465 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteCustomer({id=cus_KGj3INOx03VAkY})</span>
+                <span class="method-start">465 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.accenture.APITestingFrameWork.testCases.GetCustomersTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">listAllCustomers</span>
+                <span class="method-start">2586 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ValidingCustomerWithValidSecrectkey({state=UP, name=sachin, preferred_locales2=Hindi, preferred_locales1=France, phone=567890, email=sac...)</span>
+                <span class="method-start">2817 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidingCustomerWithValidSecrectkey({state=MA, name=Lia, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Li...)</span>
+                <span class="method-start">2818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidingCustomerWithValidSecrectkey({state=KA, name=german, preferred_locales2=Brazil, preferred_locales1=Germany, phone=654321, email=g...)</span>
+                <span class="method-start">2818 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.accenture.APITestingFrameWork.testCases.GetCustomersTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">listSingleCustomer({id=cus_KGjBNg4DytwUUn})</span>
+                <span class="method-start">3927 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">listSingleCustomer({id=cus_KGj3PrO5PpRTia})</span>
+                <span class="method-start">3928 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">listSingleCustomer({id=cus_KGj3HRyHuuBwG3})</span>
+                <span class="method-start">3928 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">listSingleCustomer({id=cus_KGj3INOx03VAkY})</span>
+                <span class="method-start">3929 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.accenture.APITestingFrameWork.testCases.UpdateCustomerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">updateSingleCustomer({state=MA, name=Lia, id=cus_KGEhqju6ro8Uwb, preferred_locales2=Spanish, preferred_locales1=Englisth,...)</span>
+                <span class="method-start">4244 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateSingleCustomer({state=MA, name=Lia, id=cus_KGEhqcFhMCzca7, preferred_locales2=Spanish, preferred_locales1=Englisth,...)</span>
+                <span class="method-start">4245 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateSingleCustomer({state=MA, name=Lia, id=cus_KGEhFx4p2H6FlP, preferred_locales2=Spanish, preferred_locales1=Englisth,...)</span>
+                <span class="method-start">4245 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

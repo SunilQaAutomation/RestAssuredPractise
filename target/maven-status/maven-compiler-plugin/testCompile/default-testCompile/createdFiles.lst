@@ -1,0 +1,6 @@
+com\accenture\APITestingFrameWork\testCases\CreateCustomerTestWithBySheetName.class
+com\accenture\APITestingFrameWork\testCases\GetCustomersTest.class
+com\accenture\APITestingFrameWork\testCases\CreateCustomerWithAllInOneSheetHashTableTest.class
+com\accenture\APITestingFrameWork\testCases\UpdateCustomerTest.class
+com\accenture\APITestingFrameWork\testCases\CreateCustomerWithSameSheetNameAsTestMethod.class
+com\accenture\APITestingFrameWork\testCases\DeleteCustomerTest.class

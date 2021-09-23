@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">API TESTING</th></tr>
+<tr><td><a href="#t0">Regressioin</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">7</td><td class="num">3,404</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">API TESTING</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regressioin &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTable</td><td><a href="#m0">inValidingCustomerWithValidSecrectkey</a></td><td rowspan="2">1632296485585</td><td rowspan="2">1704</td></tr><tr class="failedeven"><td><a href="#m1">inValidingCustomerWithValidSecrectkey</a></td></tr><tr class="failedodd"><td rowspan="5">com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest</td><td><a href="#m2">deleteCustomer</a></td><td rowspan="5">1632296485585</td><td rowspan="5">1950</td></tr><tr class="failedodd"><td><a href="#m3">deleteCustomer</a></td></tr><tr class="failedodd"><td><a href="#m4">deleteCustomer</a></td></tr><tr class="failedodd"><td><a href="#m5">deleteCustomer</a></td></tr><tr class="failedodd"><td><a href="#m6">deleteCustomer</a></td></tr><tr><th colspan="4">Regressioin &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTable</td><td><a href="#m7">ValidingCustomerWithValidSecrectkey</a></td><td rowspan="3">1632296487590</td><td rowspan="3">628</td></tr><tr class="passedeven"><td><a href="#m8">ValidingCustomerWithValidSecrectkey</a></td></tr><tr class="passedeven"><td><a href="#m9">ValidingCustomerWithValidSecrectkey</a></td></tr><tr class="passedodd"><td rowspan="5">com.accenture.APITestingFrameWork.testCases.GetCustomersTest</td><td><a href="#m10">listAllCustomers</a></td><td rowspan="1">1632296487298</td><td rowspan="1">593</td></tr><tr class="passedodd"><td><a href="#m11">listSingleCustomer</a></td><td rowspan="4">1632296487931</td><td rowspan="4">474</td></tr><tr class="passedodd"><td><a href="#m12">listSingleCustomer</a></td></tr><tr class="passedodd"><td><a href="#m13">listSingleCustomer</a></td></tr><tr class="passedodd"><td><a href="#m14">listSingleCustomer</a></td></tr><tr class="passedeven"><td rowspan="3">com.accenture.APITestingFrameWork.testCases.UpdateCustomerTest</td><td><a href="#m15">updateSingleCustomer</a></td><td rowspan="3">1632296488273</td><td rowspan="3">608</td></tr><tr class="passedeven"><td><a href="#m16">updateSingleCustomer</a></td></tr><tr class="passedeven"><td><a href="#m17">updateSingleCustomer</a></td></tr></tbody>
+</table>
+<h2>Regressioin</h2><h3 id="m0">com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTable#inValidingCustomerWithValidSecrectkey</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{state=MA, name=Lia, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Oli.Volg@gmail.com, line2=Street1, description=This is thru dp1, line1=5-4-60/1}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: id key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTable.inValidingCustomerWithValidSecrectkey(CreateCustomerWithAllInOneSheetHashTable.java:73)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTable#inValidingCustomerWithValidSecrectkey</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{state=UP, name=sachin, preferred_locales2=Hindi, preferred_locales1=France, phone=567890, email=Tobias.wall@hotmail.com, line2=Street3, description=This is thru dp3, line1=5-4-60/3}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: id key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTable.inValidingCustomerWithValidSecrectkey(CreateCustomerWithAllInOneSheetHashTable.java:73)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest#deleteCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{id=cus_KGj3PrO5PpRTia}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: ID key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:41)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest#deleteCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{id=cus_KGixr3bEjuu2JZ}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: ID key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:41)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest#deleteCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{id=cus_KGj3INOx03VAkY}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: ID key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:41)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest#deleteCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{id=cus_KGj3HRyHuuBwG3}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: ID key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:41)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest#deleteCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{id=cus_KGjBNg4DytwUUn}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: ID key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:41)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTable#ValidingCustomerWithValidSecrectkey</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{state=UP, name=sachin, preferred_locales2=Hindi, preferred_locales1=France, phone=567890, email=sachin.suresh@hotmail.com, line2=Street3, description=This is thru dp3, line1=5-4-60/3}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTable#ValidingCustomerWithValidSecrectkey</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{state=KA, name=german, preferred_locales2=Brazil, preferred_locales1=Germany, phone=654321, email=german.Lia@gmail.com, line2=Street2, description=This is thru dp2, line1=5-4-60/2}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTable#ValidingCustomerWithValidSecrectkey</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{state=MA, name=Lia, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Lia.german@gmail.com, line2=Street1, description=This is thru dp1, line1=5-4-60/1}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.accenture.APITestingFrameWork.testCases.GetCustomersTest#listAllCustomers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.accenture.APITestingFrameWork.testCases.GetCustomersTest#listSingleCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{id=cus_KGj3HRyHuuBwG3}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.accenture.APITestingFrameWork.testCases.GetCustomersTest#listSingleCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{id=cus_KGj3PrO5PpRTia}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.accenture.APITestingFrameWork.testCases.GetCustomersTest#listSingleCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{id=cus_KGjBNg4DytwUUn}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.accenture.APITestingFrameWork.testCases.GetCustomersTest#listSingleCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{id=cus_KGj3INOx03VAkY}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.accenture.APITestingFrameWork.testCases.UpdateCustomerTest#updateSingleCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{state=MA, name=Lia, id=cus_KGEhFx4p2H6FlP, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Lia.german@gmail.com, line2=Street1, description=This is thru dp1, line1=5-4-60/1}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.accenture.APITestingFrameWork.testCases.UpdateCustomerTest#updateSingleCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{state=MA, name=Lia, id=cus_KGEhqcFhMCzca7, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Lia.german@gmail.com, line2=Street1, description=This is thru dp1, line1=5-4-60/1}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.accenture.APITestingFrameWork.testCases.UpdateCustomerTest#updateSingleCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{state=MA, name=Lia, id=cus_KGEhqju6ro8Uwb, preferred_locales2=Spanish, preferred_locales1=Englisth, phone=123456, email=Lia.german@gmail.com, line2=Street1, description=This is thru dp1, line1=5-4-60/1}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

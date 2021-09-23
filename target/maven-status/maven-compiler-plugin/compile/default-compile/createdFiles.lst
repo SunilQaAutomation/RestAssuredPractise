@@ -1,0 +1,9 @@
+com\accenture\APITestingFrameWork\APIS\UpdateCustomerAPI.class
+com\accenture\APITestingFrameWork\utility\ExcelReader.class
+com\accenture\APITestingFrameWork\APIS\ListCustomersAPI.class
+com\accenture\APITestingFrameWork\listeners\ExtentListeners.class
+com\accenture\APITestingFrameWork\listeners\ExtentManager.class
+com\accenture\APITestingFrameWork\APIS\CreateCustomerAPI.class
+com\accenture\APITestingFrameWork\utility\util.class
+com\accenture\APITestingFrameWork\base\BaseTest.class
+com\accenture\APITestingFrameWork\APIS\DeleteCustomerAPI.class

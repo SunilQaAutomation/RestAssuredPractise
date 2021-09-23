@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 6.617 s <<< FAILURE! - in TestSuite
+inValidingCustomerWithValidSecrectkey(com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest)  Time elapsed: 2.117 s  <<< FAILURE!
+java.lang.AssertionError: id key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest.inValidingCustomerWithValidSecrectkey(CreateCustomerWithAllInOneSheetHashTableTest.java:73)
+
+inValidingCustomerWithValidSecrectkey(com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest)  Time elapsed: 2.118 s  <<< FAILURE!
+java.lang.AssertionError: id key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTableTest.inValidingCustomerWithValidSecrectkey(CreateCustomerWithAllInOneSheetHashTableTest.java:73)
+
+deleteCustomer(com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest)  Time elapsed: 0.104 s  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:41)
+
+deleteCustomer(com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest)  Time elapsed: 0.104 s  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:41)
+
+deleteCustomer(com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest)  Time elapsed: 0.162 s  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:41)
+
+deleteCustomer(com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest)  Time elapsed: 0.162 s  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:41)
+
+deleteCustomer(com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest)  Time elapsed: 0.162 s  <<< FAILURE!
+java.lang.AssertionError: ID key is not present in the Json expected [true] but found [false]
+	at com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest.deleteCustomer(DeleteCustomerTest.java:41)
+
