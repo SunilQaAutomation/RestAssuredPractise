@@ -1,32 +1,41 @@
-package com.accenture.APITestingFrameWork.utility;
+package rough;
+
 import java.util.Properties;
+
 import javax.mail.Authenticator;
 import javax.mail.BodyPart;
 import javax.mail.Message;
 import javax.mail.MessagingException;
-import javax.mail.PasswordAuthentication;
 import javax.mail.Session;
 import javax.mail.Transport;
-import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 
-import rough.TestConfig;
+public class sample {
 
-
-
-public class MonitoringMail
-{
-	//public static void sendMail(String mailServer, String from,String username, String password,String port, String[] to, String subject, String messageBody, String attachmentPath, String attachmentName) throws MessagingException, AddressException
-	public void sendMail(String mailServer, String from, String[] to, String subject, String messageBody) throws MessagingException, AddressException
-	{
+	public static void main(String[] args) {
 		boolean debug = false;
 		Properties props = new Properties();
+//		props.put("mail.smtp.starttls.enable", "true");
+//		props.put("mail.smtp.EnableSSL.enable","true");
+//		props.put("mail.smtp.starttls.enable", "true");
+//		props.put("mail.smtp.auth", "true");
+//		props.put("mail.smtp.ssl.enable", "true");
+//		props.put("mail.smtp.ssl.trust", "*");
+//
+//		props.put("mail.smtp.host", TestConfig.server); 
+//		props.put("mail.debug", "true");
+//		
+//	     props.setProperty("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");   
+//	     props.setProperty("mail.smtp.socketFactory.fallback", "false");   
+//	     props.setProperty("mail.smtp.port", "587");   
+//	     props.setProperty("mail.smtp.socketFactory.port", "587"); 
+		
 		props.put("mail.smtp.auth", "true");
 		props.put("mail.smtp.starttls.enable", "true");
-		props.put("mail.smtp.host", mailServer);
+		props.put("mail.smtp.host", TestConfig.server);
 		props.put("mail.smtp.port", "587");
 		props.put("mail.smtp.ssl.trust", "*");
 
@@ -47,18 +56,18 @@ public class MonitoringMail
          //X-Priority values are generally numbers like 1 (for highest priority), 3 (normal) and 5 (lowest).
             
              message.addHeader("X-Priority", "1");
-             message.setFrom(new InternetAddress(from));
-             InternetAddress[] addressTo = new InternetAddress[to.length];
-             for (int i = 0; i < to.length; i++)
-      		 addressTo[i] = new InternetAddress(to[i]);
+             message.setFrom(new InternetAddress(TestConfig.from));
+             InternetAddress[] addressTo = new InternetAddress[TestConfig.to.length];
+             for (int i = 0; i < TestConfig.to.length; i++)
+      		 addressTo[i] = new InternetAddress(TestConfig.to[i]);
              message.setRecipients(Message.RecipientType .TO, addressTo);
-             message.setSubject(subject);
+             message.setSubject(TestConfig.subject);
                   
              
              BodyPart body = new MimeBodyPart();
 
             // body.setText(messageBody);
-            body.setContent(messageBody,"text/html");
+            body.setContent(TestConfig.messageBody,"text/html");
 
              //BodyPart attachment = new MimeBodyPart();
              //DataSource source = new FileDataSource(attachmentPath);
@@ -78,16 +87,7 @@ public class MonitoringMail
             mex.printStackTrace();
         }		
 	} 
-	
-	public class SMTPAuthenticator extends javax.mail.Authenticator
-	{
 
-	    public PasswordAuthentication getPasswordAuthentication()
-	    {
-	        String username = TestConfig.from;
-	        String password = TestConfig.password;
-	        return new PasswordAuthentication(username, password);
-	    }
+
 	}
-	
-}
+
