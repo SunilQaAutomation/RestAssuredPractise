@@ -18,21 +18,7 @@ public class sample {
 	public static void main(String[] args) {
 		boolean debug = false;
 		Properties props = new Properties();
-//		props.put("mail.smtp.starttls.enable", "true");
-//		props.put("mail.smtp.EnableSSL.enable","true");
-//		props.put("mail.smtp.starttls.enable", "true");
-//		props.put("mail.smtp.auth", "true");
-//		props.put("mail.smtp.ssl.enable", "true");
-//		props.put("mail.smtp.ssl.trust", "*");
-//
-//		props.put("mail.smtp.host", TestConfig.server); 
-//		props.put("mail.debug", "true");
-//		
-//	     props.setProperty("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");   
-//	     props.setProperty("mail.smtp.socketFactory.fallback", "false");   
-//	     props.setProperty("mail.smtp.port", "587");   
-//	     props.setProperty("mail.smtp.socketFactory.port", "587"); 
-		
+	
 		props.put("mail.smtp.auth", "true");
 		props.put("mail.smtp.starttls.enable", "true");
 		props.put("mail.smtp.host", TestConfig.server);
@@ -44,6 +30,8 @@ public class sample {
 		    Session session = Session.getDefaultInstance(props, auth);
 
 		    session.setDebug(debug);
+		    
+		    
 		
 		try
 		{
