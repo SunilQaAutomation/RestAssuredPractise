@@ -9,7 +9,7 @@
 	<test name="Test">
 		<classes>
 			<class
-				name="com.accenture.APITestingFrameWork.testCases.CreateCustomerWithAllInOneSheetHashTable" />
+				name="com.accenture.APITestingFrameWork.testCases.DeleteCustomerTest" />
 
 		</classes>
 	</test> <!-- Test -->
