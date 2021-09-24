@@ -20,7 +20,7 @@
 				<version>2.22.0</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>src\test\resources\runner\testng_parallel_methods.xml</suiteXmlFile>
+						<suiteXmlFile>src\test\resources\runner\testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
